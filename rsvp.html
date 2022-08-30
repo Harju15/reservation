@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<script src="https://kit.fontawesome.com/cc7a0652ad.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="fullscreen container">
+<img src="img/wedding.jpg" alt="" class="fullscreen headerphoto">
+<div class="centered">
+    <h1 class="nospace">Save The Date</h1>
+
+    <h2 class="nospace">Mr. & Mrs. Smith</h2>
+    <h5>Septemeber 6th, 2025</h5>
+
+    
+    <div class="wrap">
+        <button class="button" onClick="document.getElementById('rsvp').scrollIntoView();">RSVP</button>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div>
+        <i class="fa-solid fa-angle-down fa-3x"></i>
+      </div>
+</div>
+    </div>
+<!-- Body PART 2 -->
+<div class="secondsection" >
+   
+<img src="img/cornerswoosh.png" alt="" class="top-left" >
+<img src="img/cornerswoosh.png" alt="" class="top-right flip" >
+<img src="img/cornerswoosh.png" alt="" class="bottom-left flipleft" >
+<img src="img/cornerswoosh.png" alt="" class="bottom-right flipright" >
+
+<div class="card centered" id="rsvp">
+    <img src="img/ring.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <div>
+            <h3>RSVP</h3>
+          
+        </div>
+      <form action="" >
+        <div class="left" >
+     
+        <input type="text" placeholder="Name">
+        
+        <input type="email" placeholder="email">
+    </div>
+    <div class="left">
+        
+        <input type="text" placeholder="Phone">
+        
+        <input type="text" placeholder="address">
+    </div>
+    <div class="left">
+        
+        <input type="text" placeholder="city">
+        
+        <input type="text" placeholder="state">
+    </div>
+    <div class="left">
+        <select name="guests" id="">
+            <option value="" >  </option>
+            <option value="solo">Solo</option>
+            <option value="plusone">Plus 1</option>
+          
+        </select>
+
+    <select name="dish" id="">
+        <option value="" >  </option>
+        <option value="chicken">Chicken</option>
+        <option value="beef">Beef</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="salad">Salad</option>
+    </select>
+</div>
+<div>
+    <button class="rsvpbtn">
+        See You There!
+    </button>
+</div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="java/custom.js"></script>
+</body>
+</html>
